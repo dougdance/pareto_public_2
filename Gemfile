@@ -63,12 +63,12 @@ end
 
 # Specify additional Refinery CMS Engines here (all optional):
 gem 'refinerycms-generators',   '~> 0.9'
-# gem 'refinerycms-inquiries',    '~> 0.9.9.9'
+gem 'refinerycms-inquiries',    '~> 0.9.9.9'
 # gem 'refinerycms-news',         '~> 1.0'
 # gem 'refinerycms-portfolio',    '~> 0.9.9'
 # gem 'refinerycms-theming',      '~> 0.9.9'
 # gem 'refinerycms-search',       '~> 0.9.8'
-# gem 'refinerycms-blog',         '~> 1.1'
+gem 'refinerycms-blog',         '~> 1.1'
 
 # Add i18n support (optional, you can remove this if you really want to).
 gem 'refinerycms-i18n',         '~> 0.9'
