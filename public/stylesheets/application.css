@@ -2,3 +2,115 @@
   Override default refinery application CSS below.
   Formatting applies to all frontend.
 */
+body
+{
+    background: url("/images/bg-tile.jpg") top left repeat-x;
+}
+
+.container
+{
+    margin-top: 10px;
+    /*background: url('/images/grid.png');*/
+}
+.logo
+{
+    margin-bottom: 20px;
+}
+.menu_container
+{
+    background: #1E1E21 url("/images/shinify.png") top left repeat-x;
+    border: 1px solid #000;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    height: 36px;
+    width:100%;
+    margin-bottom: 1.25em;
+}
+.main_content_container
+{
+    background-color: white;
+    margin: 0;
+    border: 1px solid #000;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    margin-bottom: 1.25em;
+}
+.main_content
+{
+    padding: 20px;
+    min-height: 400px;
+}
+.footer_content_container
+{
+    background-color: #1E1E21;
+    margin: 0;
+    border: 1px solid #000;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    margin-bottom: 1.25em;
+}
+.footer_content
+{
+    color: white;
+    padding: 20px;
+}
+.footer_content p
+{
+    margin-bottom: 0;
+}
+.footer_menu ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.footer_menu li
+{
+    float: left;
+    display: block;
+}
+.footer_menu a
+{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 0 5px 0 5px;
+}
+.footer_menu a:hover
+{
+    color: #00622E;
+}
+.menu_container ul
+{
+    list-style-type: none;
+    height: 36px;
+    margin: 0;
+    padding: 0;
+}
+.menu_container li
+{
+    float: left;
+    display: block;
+}
+.menu_container a
+{
+    color: #777;
+    text-decoration: none;
+    height: 36px;
+    display: block;
+    font-weight: bold;
+    padding: 0 20px 0 20px;
+    border-right: 1px solid #000;
+    line-height: 2.5em;
+    font-size: 1.2em;
+}
+.menu_container li.selected a, .menu_container li.selected a:hover
+{
+    color: #FFF;
+    background: #00622E url("/images/shinify.png") top left repeat-x;
+}
+.menu_container li a:hover
+{
+    color: #FFF;
+    background: #4E4E56 url("/images/shinify.png") top left repeat-x;
+}

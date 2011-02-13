@@ -1,0 +1,14 @@
+<div class="left">
+<p>
+  <%= t('.copyright', :year => Time.now.year,
+                      :site_name => RefinerySetting.find_or_set(:site_name, "Company Name")) %>.
+  All Rights Reserved.
+</p>
+</div>
+<div class="right footer_menu">
+  <%= render :partial => "/shared/menu",
+             :locals => {
+               :dom_id => 'menu',
+               :css => 'menu'
+             } -%>
+</div>

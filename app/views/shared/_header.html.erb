@@ -1,0 +1,12 @@
+<div class="logo">
+  <%= link_to image_tag("pareto_logo_small_transparent.png", :alt => RefinerySetting.find_or_set(:site_name, "Pareto Health")), root_path %>
+</div>
+<div class="menu_container">
+  <div class="menu">
+  <%= render :partial => "/shared/menu",
+             :locals => {
+               :dom_id => 'menu',
+               :css => 'menu'
+             } -%>
+  </div>
+</div>
