@@ -1,0 +1,108 @@
+<div class="home_content">
+  <div id="slider-wrapper">
+    <div id="slider" class="nivoSlider">
+      <img src="/images/happy_old_man_with_doctor_950_450.jpg" alt="" title="#caption1" />
+      <img src="/images/hospital_sign_950_450.jpg" alt="" title="#caption2" />
+      <img src="/images/happy_old_woman_with_doctor_950_450.jpg" alt="" title="#caption3" />
+      <img src="/images/pareto_logo_950_450.jpg" alt="" title="#caption4" />
+    </div>
+    <div id="caption1" class="nivo-html-caption">
+      <div class="alt">
+          Improve Patient Satisfaction
+      </div>
+    </div>
+    <div id="caption2" class="nivo-html-caption">
+      <div class="alt">
+        Reduce Avoidable Readmissions
+      </div>
+    </div>
+    <div id="caption3" class="nivo-html-caption">
+      <div class="alt">
+        Achieve Better Outcomes
+      </div>
+    </div>
+    <div id="caption4" class="nivo-html-caption">
+      <div class="alt">
+      </div>
+    </div>
+  </div>
+  <div class="span-8">
+    <div class="link_box">
+      <a href="#">
+        <div class="title">
+          For Hospitals &amp; Providers
+        </div>
+        <div class="image">
+          <img src="/images/happy_medical_team_268_178.jpg" alt="" />
+        </div>
+      </a>
+      <div class="content">
+        <!--
+        <p>Pareto Health's MedFollow Service reduces avoidable readmissions through targeted telephonic post-discharge follow-up for more successful transitions of care.</p>
+        <ul>
+          <li>Increase HCAHPS patient satisfaction scores</li>
+          <li>Avoid CMS reimbursement reductions</li>
+          <li>Reduce Avoidable Readmissions</li>
+        </ul>
+        -->
+      </div>
+    </div>
+  </div>
+  <div class="span-8">
+    <div class="link_box">
+      <a href="#">
+        <div class="title">
+          For Patients &amp; Caregivers
+        </div>
+        <div class="image">
+          <img src="/images/girl_hugging_grandpa_268_178.jpg" alt="" />
+        </div>
+      </a>
+      <div class="content">
+      </div>
+    </div>
+  </div>
+  <div class="span-8 last">
+    <div class="link_box">
+      <a href="#">
+        <div class="title">
+          About Pareto Health
+        </div>
+        <div class="image">
+          <img src="/images/smiling_customer_service_268_178.jpg" alt="" />
+        </div>
+      </a>
+      <div class="content">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script type="text/javascript">
+$(window).load(function() {
+    $('#slider').nivoSlider({
+        effect:'sliceDown', //Specify sets like: 'fold,fade,sliceDown'
+        slices:7,
+        animSpeed:1500, //Slide transition speed
+        pauseTime:5000,
+        startSlide:0, //Set starting Slide (0 index)
+        directionNav:true, //Next & Prev
+        directionNavHide:true, //Only show on hover
+        controlNav:false, //1,2,3...
+        controlNavThumbs:false, //Use thumbnails for Control Nav
+        controlNavThumbsFromRel:false, //Use image rel for thumbs
+        controlNavThumbsSearch: '.jpg', //Replace this with...
+        controlNavThumbsReplace: '_thumb.jpg', //...this in thumb Image src
+        keyboardNav:true, //Use left & right arrows
+        pauseOnHover:false, //Stop animation while hovering
+        manualAdvance:false, //Force manual transitions
+        captionOpacity:1, //Universal caption opacity
+        beforeChange: function(){},
+        afterChange: function(){},
+        slideshowEnd: function(){}, //Triggers after all slides have been shown
+        lastSlide: function(){}, //Triggers when last slide is shown
+        afterLoad: function(){} //Triggers when slider has loaded
+    });
+});
+</script>

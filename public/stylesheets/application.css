@@ -2,6 +2,15 @@
   Override default refinery application CSS below.
   Formatting applies to all frontend.
 */
+
+/* From fancy-type blueprint plugin */
+.alt {
+  color: #000;
+  font-family: "Warnock Pro", "Goudy Old Style","Palatino","Book Antiqua", Georgia, serif;
+  font-style: italic;
+  font-weight: normal;
+}
+
 body
 {
     background: url("/images/bg-tile.jpg") top left repeat-x;
@@ -15,6 +24,22 @@ body
 .logo
 {
     margin-bottom: 20px;
+    float:left;
+}
+.slogan
+{
+  float:right;
+  margin-top:50px;
+  margin-right:20px;
+}
+.slogan span
+{
+  padding:10px;
+  font-size:1.1em;
+}
+.green
+{
+  color:#00622E;
 }
 .menu_container
 {
@@ -38,6 +63,11 @@ body
 .main_content
 {
     padding: 20px;
+    min-height: 400px;
+}
+.home_content
+{
+    padding: 0;
     min-height: 400px;
 }
 .footer_content_container
@@ -113,4 +143,33 @@ body
 {
     color: #FFF;
     background: #4E4E56 url("/images/shinify.png") top left repeat-x;
+}
+.link_box
+{
+  margin:20px;
+    border: 1px solid #000;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+.link_box .title
+{
+    color: #FFF;
+    background: #00622E url("/images/shinify.png") top left repeat-x;
+    text-decoration: none;
+    height: 36px;
+    font-weight: bold;
+    padding: 0 20px 0 20px;
+    line-height: 2.5em;
+    font-size: 1.2em;
+    text-align:center;
+}
+.link_box img
+{
+}
+.link_box .content
+{
+}
+.link_box .image
+{
+  height:178px;
 }

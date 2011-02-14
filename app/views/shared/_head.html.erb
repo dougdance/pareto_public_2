@@ -32,8 +32,13 @@
 
   <link rel="stylesheet" href="stylesheets/application.css" type="text/css" media="screen, projection" />
 
+  <link rel="stylesheet" href="stylesheets/nivo-slider.css" type="text/css" media="screen, projection" />
+
   <%= yield :stylesheets %>
   <%= render :partial => '/shared/google_analytics' unless local_request? %>
+
+  <%= javascript_include_tag 'jquery-1.4.3.min.js' %>
+  <%= javascript_include_tag 'jquery.nivo.slider.pack.js' %>
 
   <%= javascript_include_tag 'modernizr-min' %>
 
