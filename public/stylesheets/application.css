@@ -187,3 +187,30 @@ body
 {
   text-decoration:underline;
 }
+.inquiries input, .inquiries textarea
+{
+  margin:0 0 0.5em 0;
+}
+.errorExplanation
+{
+  padding:0.8em;
+  margin-bottom:1em;
+  border:2px solid #ddd;
+  background:#fbe3e4;
+  color:#8a1f11;
+  border-color:#fbc2c4;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+.fieldWithErrors input, .fieldWithErrors textarea
+{
+  border:1px solid #8a1f11;
+}
+.fieldWithErrors textarea:focus
+{
+  border-color:#666;
+}
+.text_right
+{
+  text-align:right;
+}
