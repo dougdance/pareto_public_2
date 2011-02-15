@@ -1,0 +1,15 @@
+<% if post.live? %>
+  <article class="blog_post" id="<%= dom_id(post) %>">
+    <header>
+      <h2><%= link_to post.title, blog_post_url(post) %></h2>
+      <details>
+        <time datetime="<%= post.published_at.strftime('%Y-%m-%d') %>" class='posted_at'>
+          <%= t('blog.shared.posts.created_at', :when => post.published_at.strftime('%d %B %Y')) %>.
+        </time>
+      </details>
+    </header>
+    <section class='clearfix'>
+      <%= raw post.body %>
+    </section>
+  </article>
+<% end %>

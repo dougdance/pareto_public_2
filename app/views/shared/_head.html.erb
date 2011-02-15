@@ -25,14 +25,14 @@
   <%= csrf_meta_tag if RefinerySetting.find_or_set(:authenticity_token_on_frontend, true)-%>
   <%= yield :meta %>
 
-  <link rel="stylesheet" href="stylesheets/blueprint/screen.css" type="text/css" media="screen, projection" />
+  <link rel="stylesheet" href="/stylesheets/blueprint/screen.css" type="text/css" media="screen, projection" />
   <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/blueprint/ie.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="/stylesheets/blueprint/ie.css" type="text/css" media="screen, projection" />
   <![endif]-->
 
-  <link rel="stylesheet" href="stylesheets/application.css" type="text/css" media="screen, projection" />
+  <link rel="stylesheet" href="/stylesheets/application.css" type="text/css" media="screen, projection" />
 
-  <link rel="stylesheet" href="stylesheets/nivo-slider.css" type="text/css" media="screen, projection" />
+  <link rel="stylesheet" href="/stylesheets/nivo-slider.css" type="text/css" media="screen, projection" />
 
   <%= yield :stylesheets %>
   <%= render :partial => '/shared/google_analytics' unless local_request? %>
