@@ -59,6 +59,10 @@ body
     border-radius: 6px;
     margin-bottom: 1.25em;
 }
+.main_content
+{
+  min-height:200px;
+}
 .padded_content
 {
   padding:20px;
@@ -172,4 +176,14 @@ body
 }
 .blog h2
 {
+  margin-bottom:0;
+}
+.blog a
+{
+  color:#00622E;
+  text-decoration:none;
+}
+.blog a:hover
+{
+  text-decoration:underline;
 }

@@ -1,4 +1,2 @@
-re-order menu
-style blog
 style contact
 add fields to contact

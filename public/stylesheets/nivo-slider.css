@@ -42,7 +42,7 @@
 /* Caption styles */
 .nivo-caption {
         position:absolute;
-        bottom:50px;
+        bottom:30px;
         background: transparent;
         color:#000;
         opacity:0.8; /* Overridden by captionOpacity setting */
@@ -52,7 +52,7 @@
 }
 .nivo-caption p {
         padding:5px;
-        padding-right:70px;
+        padding-right:60px;
         margin:0;
         font-size:2.5em;
         font-weight:bold;
@@ -92,14 +92,14 @@
 /*============================*/
 #slider-wrapper {
     width:950px;
-    height:450px;
+    height:350px;
     margin:0 auto;
 }
 
 #slider {
 	position:relative;
     width:950px;
-    height:450px;
+    height:350px;
 	background:url(/images/loading.gif) no-repeat 50% 50%;
 }
 #slider img {
