@@ -1,2 +1,4 @@
-style contact
+fix blog side body ordering
 add fields to contact
+get email to work on heroku
+add images

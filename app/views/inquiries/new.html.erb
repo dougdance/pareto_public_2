@@ -9,28 +9,58 @@
                    :include_object_name => true
                  } %>
       <div class='field'>
-        <div class="span-2 text_right">
+        <div class="span-4 text_right">
         <%= f.required_label :name %>
         </div>
         <%= f.text_field :name %>
       </div>
       <div class='field'>
-        <div class="span-2 text_right">
+        <div class="span-4 text_right">
         <%= f.required_label :email %>
         </div>
         <%= f.text_field :email %>
       </div>
       <div class='field'>
-        <div class="span-2 text_right">
+        <div class="span-4 text_right">
+        <%= f.label :title %>
+        </div>
+        <%= f.text_field :title %>
+      </div>
+      <div class='field'>
+        <div class="span-4 text_right">
+        <%= f.label :organization %>
+        </div>
+        <%= f.text_field :organization %>
+      </div>
+      <div class='field'>
+        <div class="span-4 text_right">
+        <%= f.label :city %>
+        </div>
+        <%= f.text_field :city %>
+      </div>
+      <div class='field'>
+        <div class="span-4 text_right">
+        <%= f.label :state %>
+        </div>
+        <%= f.text_field :state %>
+      </div>
+      <div class='field'>
+        <div class="span-4 text_right">
         <%= f.label :phone %>
         </div>
         <%= f.text_field :phone %>
       </div>
-      <div class='field message_field'>
-        <div class="span-2 text_right">
-        <%= f.required_label :message  %>
+      <div class='field' style="height:40px;">
+        <div class="span-4 text_right">
+        <%= f.label :referred_by, 'How did you hear about Pareto Health?' %>
         </div>
-        <%= f.text_area :message, :rows => 8 %>
+        <%= f.text_field :referred_by %>
+      </div>
+      <div class='field'>
+        <div class="span-4 text_right">
+        <%= f.label :message, 'Comments'  %>
+        </div>
+        <%= f.text_area :message, :rows => 2 %>
       </div>
       <div class='actions'>
         <%= f.submit t('.send') %>

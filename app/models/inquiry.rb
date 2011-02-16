@@ -7,7 +7,6 @@ class Inquiry < ActiveRecord::Base
                :extra_spam_words => %w()
 
   validates :name, :presence => true
-  validates :message, :presence => true
   validates :email, :format=> { :with =>  /^([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})$/i }
 
   acts_as_indexed :fields => [:name, :email, :message, :phone]

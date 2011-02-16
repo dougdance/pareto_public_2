@@ -54,14 +54,14 @@ body
 {
     background-color: white;
     margin: 0;
-    border: 1px solid #000;
+    border: 1.5px solid #000;
     -moz-border-radius: 6px;
     border-radius: 6px;
     margin-bottom: 1.25em;
 }
 .main_content
 {
-  min-height:200px;
+  min-height:350px;
 }
 .padded_content
 {
@@ -213,4 +213,13 @@ body
 .text_right
 {
   text-align:right;
+}
+.image_wrapper
+{
+  padding-left:20px;
+}
+.new_inquiry textarea
+{
+  height:auto;
+  width:auto;
 }

@@ -1,0 +1,23 @@
+<%= t('.greeting') %>,
+
+<%= t('.you_recieved_new_inquiry') %>
+
+<%= t('.inquiry_starts') %>
+
+<%= t('.from') %>: <%= @inquiry.name %>
+<%= t('.email') %>: <%= @inquiry.email %>
+<%= t('.phone') %>: <%= @inquiry.phone %>
+Title: <%= @inquiry.title %>
+Organization: <%= @inquiry.organization %>
+City: <%= @inquiry.city %>
+State: <%= @inquiry.state %>
+How did you hear about Pareto Health?: <%= @inquiry.referred_by %>
+Comments:
+<%= @inquiry.message %>
+
+<%= t('.inquiry_ends') %>
+
+<%= t('.closing_line') %>,
+<%= RefinerySetting[:site_name] %>
+
+<%= t('.ps') %>
